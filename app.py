@@ -15,3 +15,6 @@ app = Flask(__name__)
 def hello():
     # Render the page
     return "Hello Python!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=5000)
